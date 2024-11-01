@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="ContactPage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <section class="navbar">
+        <div class="navigation">
+            <ul>
+                <a href="HomePage.html">
+                    <li>Home</li>
+                </a>
+                <a href="CoursesPage.html">
+                    <li>Courses</li>
+                </a>
+                <a href="AboutPage.html">
+                    <li>About us</li>
+                </a>
+                <a href="ContactPage.html">
+                    <li>Contact us</li>
+                </a>
+                </ul>
+        </div>
+    </section>
+    <section id="contactus">
+        <div class="content"><h1 class="h-primary">Connect With Us!</h1>
+    </section>
+    <section id="form">
+        <form action="#">
+            <div class="form-section">
+                <label for="name">Name: <br>
+                    <input type="text" placeholder="Enter your name..">
+                </label>
+            </div>
+            <div class="form-section">
+                <label for="email">Email:<br>
+                    <input type="email" placeholder="Enter your Email@..">
+                </label>
+            </div>
+            <div class="form-section">
+                <label for="phone">Phone No#:<br>
+                    <input type="text" placeholder="Enter your PhoneNo#..">
+                </label>
+            </div>
+            <div class="form-section">
+                <label for="Gender">Genter: &nbsp;&nbsp;
+                Male:<input type="radio" name="Gender">
+                FeMale:<input type="radio" name="Gender">
+                Others:<input type="radio" name="Gender">
+                </label>
+            </div>
+            
+            <div class="form-section">"Choose a Course:"
+            <select name="role">
+                    <option value="Defoult">Course name..</option>
+                    <option value="p">Programing</option>
+                    <option value="WD">Web Development</option>
+                    <option value="FA">financial accounting</option>
+                    <option value="MS">MS Office</option>
+                    <option value="GD">Graphic design</option>
+                    <option value="ON">Osha/Nebosh</option>
+                    <option value="EL">English Language</option>
+                    <option value="EC">E-Commerce</option>
+                </select>
+            </div>
+            <div class="form-section">
+                <label for="msg">Massage:</label><br>
+                <textarea name="msg" id="msg" cols="30" rows="5"></textarea>
+            </div>
+            <button class="btn">Submit Now</button>
+            <button class="btn">Reset</button>
+        </form>
+    </section>
+    
+</body>
+</html>
